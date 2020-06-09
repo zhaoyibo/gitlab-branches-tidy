@@ -23,7 +23,7 @@ import java.util.Map;
  * @author yibo
  * @since 2020-06-09
  */
-public class App {
+public class ListBranch {
 
     private static final String URL = "http://git.wb-intra.com/api/v4/projects/%s/repository/branches?per_page=100";
 
@@ -93,7 +93,7 @@ public class App {
 
 
 //
-//        URL resource = App.class.getClassLoader().getResource("ret.json");
+//        URL resource = ListBranch.class.getClassLoader().getResource("ret.json");
 //        assert resource != null;
 //        String json = new String(Files.readAllBytes(Paths.get(resource.toURI())));
 //
